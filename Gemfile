@@ -15,6 +15,8 @@ gem "minima", "~> 2.0"
 
 gem 'listen', '~> 3.1.5'
 
+# gem "minimal-mistakes-jekyll", :git => "https://github.com/mmistakes/minimal-mistakes.git", :tag => "4.17.2"
+
 # gem "github-pages", group: :jekyll_plugins
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
