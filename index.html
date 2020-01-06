@@ -5,223 +5,228 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Social Media Icon -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
 
+	<style>
+		.img-project{
+			border:black 2px solid;
+			/*height:10vh;*/
+			/*width:10vw;*/
+			padding:1px;
 
-<style>
-	.img-project{
-		border:black 2px solid;
-		/*height:10vh;*/
-		/*width:10vw;*/
-		padding:1px;
+		}
+		.row img{
+			/*border:black 2px solid;*/
+			/*height:10vh;*/
+			/*width:10vw;*/
+			/*padding:1px;*/
+			/*float:left;margin:1%;*/
+		}
+	    .container {
+	            max-width: 100%;
+	    }
 
-	}
-	.row img{
-		/*border:black 2px solid;*/
-		/*height:10vh;*/
-		/*width:10vw;*/
-		/*padding:1px;*/
-		/*float:left;margin:1%;*/
-	}
-    .container {
-            max-width: 100%;
-    }
+	    .fa-top {
+			font-size: 150%;
+			color:grey;
+	    }
 
-    .fa-top {
-		font-size: 150%;
-		color:grey;
-    }
+	    .fa-bottom {
+			/*font-size: 150%;*/
+			color:grey;
+	    }
 
-    .fa-bottom {
-		/*font-size: 150%;*/
-		color:grey;
-    }
+		.footer {
+	        max-width: 100%;
+	    }
+	    .project-description{
+			font-size: 16px;
 
-	.footer {
-        max-width: 100%;
-    }
-    .project-description{
-		font-size: 16px;
+	    }
 
-    }
-
-</style>
+	</style>
 </head>
+
 <body>
 	
 
+    <!---------------------------------------------------------------------------------------------->
+    <!-- NAVBAR -->
+    <!---------------------------------------------------------------------------------------------->
 
-<!--########################################################################-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="index.html">Jason's Website</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+				<!-- <li class="nav-item">
+					<a class="nav-link" href="#">About</a>
+				</li> -->
+				<li class="nav-item">
+					<a class="nav-link" href="books.html">Books</a>
+				</li>
+		    </ul>
+	<!-- 	    <ul class="navbar-nav ml-auto">
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-	<a class="navbar-brand" href="index.html">Jason's Website</a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	<span class="navbar-toggler-icon"></span>
-	</button>
-	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-	    <ul class="navbar-nav mr-auto">
-			<!-- <li class="nav-item">
-				<a class="nav-link" href="#">About</a>
-			</li> -->
-			<li class="nav-item">
-				<a class="nav-link" href="books.html">Books</a>
-			</li>
-	    </ul>
-<!-- 	    <ul class="navbar-nav ml-auto">
+	            <li class="nav-item"><a class="text-muted nav-link" href="https://twitter.com/jasjung_">
+	              	<span class="fa fa-twitter fajj"></span></a></li>
+	            <li class="nav-item"><a class="text-muted nav-link" href="https://linkedin.com/in/jasjung">
+	              	<span class="fa fa-linkedin"></span></a></li>
+	            <li class="nav-item"><a class="text-muted nav-link" href="https://www.youtube.com/channel/UCqNcWgqTLGmaQcsfT95gIow">
+	              	<span class="fa fa-youtube"></span></a></li>
+	            <li class="nav-item"><a class="text-muted nav-link" href="https://github.com/jasjung">
+	              	<span class="fa fa-github"></span></a></li>
+	            <li class="nav-item"><a class="text-muted nav-link" href="https://medium.com/@jasjung">
+	              	<span class="fa fa-medium"></span></a></li>
 
-            <li class="nav-item"><a class="text-muted nav-link" href="https://twitter.com/jasjung_">
-              	<span class="fa fa-twitter fajj"></span></a></li>
-            <li class="nav-item"><a class="text-muted nav-link" href="https://linkedin.com/in/jasjung">
-              	<span class="fa fa-linkedin"></span></a></li>
-            <li class="nav-item"><a class="text-muted nav-link" href="https://www.youtube.com/channel/UCqNcWgqTLGmaQcsfT95gIow">
-              	<span class="fa fa-youtube"></span></a></li>
-            <li class="nav-item"><a class="text-muted nav-link" href="https://github.com/jasjung">
-              	<span class="fa fa-github"></span></a></li>
-            <li class="nav-item"><a class="text-muted nav-link" href="https://medium.com/@jasjung">
-              	<span class="fa fa-medium"></span></a></li>
-
-	    </ul> -->
-  	</div>
-</nav>
+		    </ul> -->
+	  	</div>
+	</nav>
 
 
-<!-- profile -->
-<div class='container bg-light pb-2 mb-5 pt-5'>
-	<div class='container' style="width: 80%;" > 
+    <!---------------------------------------------------------------------------------------------->
+    <!-- PROFILE -->
+    <!---------------------------------------------------------------------------------------------->
 
-		<table class="table justify-content-center mx-auto px-auto">
+	<div class='container bg-light pb-2 mb-5 pt-5'>
+		<div class='container' style="width: 80%;" > 
 
-		<tr>	
-		<div class='row mx-auto px-auto'>
-			<div class='col-sm-2 my-auto'>
-					<img src="assets/images/profile.png" class="img-thumbnail" width=100 style="border-radius: 50%">
-					<br>
-			</div>
+			<table class="table justify-content-center mx-auto px-auto">
 
-			<div class='col-sm-6 my-auto'>
-				
-				<h3>
-				Hi! Welcome to my website.<br>Checkout my projects below. 
-				</h3>		
-			</div>
-			<div class='col-sm-2 my-auto'>
-				<!-- place holder -->
-			</div>
-			<div class='col-sm-2 my-auto'>
-				<a href='https://twitter.com/jasjung_'>
-				    <span class="fa fa-twitter-square fa-top"  ></span> 
-				</a>
-				<a href='https://linkedin.com/in/jasjung'>
-				    <span class="fa fa-linkedin-square fa-top"></span> 
-				</a>
-				<a href='https://www.youtube.com/channel/UCqNcWgqTLGmaQcsfT95gIow'>
-				    <span class="fa fa-youtube-square fa-top"></span> 
-				</a>
-				<a href='https://github.com/jasjung'>
-				    <span class="fa fa-github-square fa-top"></span> 
-				</a>
-				<a href='https://medium.com/@jasjung'>
-				    <span class="fa fa-medium fa-top"></span> 
-				</a>
+			<tr>	
+			<div class='row mx-auto px-auto'>
+				<div class='col-sm-2 my-auto'>
+						<img src="assets/images/profile.png" class="img-thumbnail" width=100 style="border-radius: 50%">
+						<br>
+				</div>
 
-			</div>
-			</div>
-		</tr>
-		</table>
+				<div class='col-sm-6 my-auto'>
+					
+					<h3>
+					Hi! Welcome to my website.<br>Checkout my projects below. 
+					</h3>		
+				</div>
+				<div class='col-sm-2 my-auto'>
+					<!-- place holder -->
+				</div>
+				<div class='col-sm-2 my-auto'>
+					<a href='https://twitter.com/jasjung_'>
+					    <span class="fa fa-twitter-square fa-top"  ></span> 
+					</a>
+					<a href='https://linkedin.com/in/jasjung'>
+					    <span class="fa fa-linkedin-square fa-top"></span> 
+					</a>
+					<a href='https://www.youtube.com/channel/UCqNcWgqTLGmaQcsfT95gIow'>
+					    <span class="fa fa-youtube-square fa-top"></span> 
+					</a>
+					<a href='https://github.com/jasjung'>
+					    <span class="fa fa-github-square fa-top"></span> 
+					</a>
+					<a href='https://medium.com/@jasjung'>
+					    <span class="fa fa-medium fa-top"></span> 
+					</a>
+
+				</div>
+				</div>
+			</tr>
+			</table>
+		</div>
 	</div>
-</div>
-<!-- 
-<a class="btn-floating btn-sm btn-tw" type="button" role="button"><i class="fab fa-twitter"></i></a>
-<a class="btn-floating btn-lg btn-fb" type="button" role="button"><i class="fab fa-facebook-f"></i></a> -->
 
-<!-- <a href="#" class="fa fa-facebook"></a> -->
+    <!---------------------------------------------------------------------------------------------->
+    <!-- PROJECTS -->
+    <!---------------------------------------------------------------------------------------------->
 
-
-<div class='container' style="width: 80%;" > 
-	<table class="table">
-		<!--########################################################################-->
-		<tr>
-			<div class='row pb-3'>
-				<div class='col-sm-4'>
-					<a href="https://salary.ninja">
-					<img src="assets/images/projects/salary.gif" class="figure-img img-fluid rounded img-project"></a>
+	<div class='container' style="width: 80%;" > 
+		<table class="table">
+			<!--########################################################################-->
+			<tr>
+				<div class='row pb-3'>
+					<div class='col-sm-4'>
+						<a href="https://salary.ninja">
+						<img src="assets/images/projects/salary.gif" class="figure-img img-fluid rounded img-project"></a>
+					</div>
+					<div class='col-sm-8'>
+						<h3>Salary Ninja</h3>
+						<p class="project-description" >
+						https://Salary.Ninja a first web application that I built with Django. I built it to learn and experience the process of deploying a website from scratch. It is currently deployed on DigitalOcean. 
+						</p>
+					</div>
 				</div>
-				<div class='col-sm-8'>
-					<h3>Salary Ninja</h3>
-					<p class="project-description" >
-					https://Salary.Ninja a first web application that I built with Django. I built it to learn and experience the process of deploying a website from scratch. It is currently deployed on DigitalOcean. 
-					</p>
+			</tr>
+			<!--########################################################################-->
+			<tr>
+				<div class='row pb-3'>
+					<div class='col-sm-4'>
+						<a href="https://youtu.be/uP0-T8kYCjI">
+						<img src="assets/images/projects/alphablitz.png" class="figure-img img-fluid rounded img-project"></a>
+					</div>
+					<div class='col-sm-8'>
+						<h3>AlphaBlitz: Word Blitz Hack</h3>
+						<p class="project-description" >
+						I built a program that hacks Facebook's Word Blitz game using deep learning. It uses computer vision to detect letters on a computer screen, recursion to find all possible words, and Python to control the mouse to play the game.  
+						</p>
+					</div>
 				</div>
-			</div>
-		</tr>
-		<!--########################################################################-->
-		<tr>
-			<div class='row pb-3'>
-				<div class='col-sm-4'>
-					<a href="https://youtu.be/uP0-T8kYCjI">
-					<img src="assets/images/projects/alphablitz.png" class="figure-img img-fluid rounded img-project"></a>
+			</tr>
+			<!--########################################################################-->
+			<tr>
+				<div class='row pb-3'>
+					<div class='col-sm-4'>
+						<a href="https://github.com/jasjung/Machine_Learning">
+						<img src="assets/images/github.png" class="figure-img img-fluid rounded img-project"></a>
+					</div>
+					<div class='col-sm-8'>
+						<h3>Github Machine Learning</h3>
+						<p class="project-description" >
+						The Machine Learning repository in Github is where I document all my learnings related to programming and ML. I document so that I can share the things I learned and to easily refer to them in the future. 
+						</p>
+					</div>
 				</div>
-				<div class='col-sm-8'>
-					<h3>AlphaBlitz: Word Blitz Hack</h3>
-					<p class="project-description" >
-					I built a program that hacks Facebook's Word Blitz game using deep learning. It uses computer vision to detect letters on a computer screen, recursion to find all possible words, and Python to control the mouse to play the game.  
-					</p>
+			</tr>
+			<!--########################################################################-->
+			<tr>
+				<div class='row pb-3'>
+					<div class='col-sm-4'>
+						<a href="https://towardsdatascience.com/how-to-data-science-without-a-degree-79d8388a49ba">
+						<img src="assets/images/howtoDS.png" class="figure-img img-fluid rounded img-project"></a>
+					</div>
+					<div class='col-sm-8'>
+						<h3>Medium.com</h3>
+						<p class="project-description" >
+						I started to write on Medium in 2018. It is a fun way to express myself and share the knowledge. Currently, I am a contributing author to Towards Data Science and Better Programming. 
+						</p>
+					</div>
 				</div>
-			</div>
-		</tr>
-		<!--########################################################################-->
-		<tr>
-			<div class='row pb-3'>
-				<div class='col-sm-4'>
-					<a href="https://github.com/jasjung/Machine_Learning">
-					<img src="assets/images/github.png" class="figure-img img-fluid rounded img-project"></a>
+			</tr>
+			<!--########################################################################-->
+			<tr>
+				<div class='row pb-3'>
+					<div class='col-sm-4'>
+						<a href="snake.html">
+						<img src="assets/images/snake.png" class="figure-img img-fluid rounded img-project"></a>
+					</div>
+					<div class='col-sm-8'>
+						<h3>Snake</h3>
+						<p class="project-description" >
+						This is a simple snake game built with Javascript. I did not write the code but I just implemented it. 
+						</p>
+					</div>
 				</div>
-				<div class='col-sm-8'>
-					<h3>Github Machine Learning</h3>
-					<p class="project-description" >
-					The Machine Learning repository in Github is where I document all my learnings related to programming and ML. I document so that I can share the things I learned and to easily refer to them in the future. 
-					</p>
-				</div>
-			</div>
-		</tr>
-		<!--########################################################################-->
-		<tr>
-			<div class='row pb-3'>
-				<div class='col-sm-4'>
-					<a href="https://towardsdatascience.com/how-to-data-science-without-a-degree-79d8388a49ba">
-					<img src="assets/images/howtoDS.png" class="figure-img img-fluid rounded img-project"></a>
-				</div>
-				<div class='col-sm-8'>
-					<h3>Medium.com</h3>
-					<p class="project-description" >
-					I started to write on Medium in 2018. It is a fun way to express myself and share the knowledge. Currently, I am a contributing author to Towards Data Science and Better Programming. 
-					</p>
-				</div>
-			</div>
-		</tr>
-		<!--########################################################################-->
-		<tr>
-			<div class='row pb-3'>
-				<div class='col-sm-4'>
-					<a href="snake.html">
-					<img src="assets/images/snake.png" class="figure-img img-fluid rounded img-project"></a>
-				</div>
-				<div class='col-sm-8'>
-					<h3>Snake</h3>
-					<p class="project-description" >
-					This is a simple snake game built with Javascript. I did not write the code but I just implemented it. 
-					</p>
-				</div>
-			</div>
-		</tr>
-		<!--########################################################################-->
-	</table>	
-
-
-</div>
+			</tr>
+			<!--########################################################################-->
+		</table>	
+	</div>
+    <!---------------------------------------------------------------------------------------------->
+    <!-- FOOTER -->
+    <!---------------------------------------------------------------------------------------------->
 
     <footer class="pt-4 pb-4 mb-0 my-md-0 pt-md-5 border-top bg-dark" style="max-width: 100%;">
       	<div class='container' style="max-width: 80%;">
@@ -261,7 +266,8 @@
         </div>
     </footer>
 
-    <!-- BOOTSTRAP -->
+
+    <!-- BOOTSTRAP for making collapse navbar work-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
