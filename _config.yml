@@ -57,7 +57,7 @@ include:
   #   url: /hobbies/
 
 
-minimal_mistakes_skin: default
+minimal_mistakes_skin: "default"
 
 author:
   name   : "Jason Jung"
