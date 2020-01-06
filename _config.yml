@@ -41,6 +41,7 @@ plugins:
 
 include:
   - _pages
+  - .htaccess
 
 # links:
 #   - title: About
