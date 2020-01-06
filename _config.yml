@@ -28,6 +28,7 @@ github_username:  jasjung
 markdown: kramdown
 # theme: minima
 theme: minimal-mistakes-jekyll
+# remote_theme: mmistakes/minimal-mistakes@4.17.2
 plugins:
   - jekyll-feed
   - jekyll-include-cache
