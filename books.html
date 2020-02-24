@@ -10,11 +10,22 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<!-- Social Media Icon -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    
+    <!-- css -->
 	<style>
+	    a.book{ 
+			/*disable blue color*/
+	    	color: inherit; 
+            /* have the same margin as .img-book or margin is off*/
+            margin:1%;
+	    } 
+        
 		.img-book{
 			border:black 2px solid;
-			height:25vh;padding:1px;float:left;margin:1%;
+			height:25vh;
+            padding:1px;
+            float:left;
+            margin:1%;
 		}
         
 	    .container {
@@ -37,6 +48,7 @@
 	</style>
 
 </head>
+
 
 <body>
     <!---------------------------------------------------------------------------------------------->
@@ -71,7 +83,8 @@
                             <img src="assets/images/profile.png" class="img-thumbnail" width=100 style="border-radius: 50%">    
                         </div>
                         <div class='col-sm-6 my-auto'>
-                            <h3>Check out the books I enjoyed reading.</h3>		
+                            <h3>Check out the books I enjoyed reading.</h3>
+                            <p>Clicking the book will take you to the corresponding book on Amazon and give me a chance to make some referral bonus!</p>
                         </div>
                         <div class='col-sm-2 my-auto'>
                             <!-- place holder -->
@@ -99,73 +112,132 @@
 		</div>
 	</div>
 
+    
     <!---------------------------------------------------------------------------------------------->
     <!-- BOOKS -->
     <!---------------------------------------------------------------------------------------------->
-	<div class='container' style="width: 80%;" > 
-
-		<h3>2020</h3> 
+	<div class='container' style="width: 80%;"> 
+		<h3>2020</h3>
 		<div class="row pb-3">
-			<img src="assets/images/books/2020/thinkgrowrich.jpg" class="figure-img img-fluid rounded img-book">
-			<img src="assets/images/books/2020/rework.jpg" class="figure-img img-fluid rounded img-book">
+            <a href="https://amzn.to/2VeM2yt" class='book'>
+                <img src="assets/images/books/2020/thinkgrowrich.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
+            <a href="https://amzn.to/39X0qzx" class='book'>
+                <img src="assets/images/books/2020/rework.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
+			<a href="https://amzn.to/2SUeNPv" class='book'>
+                <img src="assets/images/books/2020/stopworry.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
 		</div>
 
 		<h3>2019</h3> 
 		<div class="row pb-3">
-			<img src="assets/images/books/2019/wild.jpg" class="figure-img img-fluid rounded img-book">
-			<img src="assets/images/books/2019/rich.jpg" class="figure-img img-fluid rounded img-book">
-			<img src="assets/images/books/2019/talk.jpg" class="figure-img img-fluid rounded img-book">
+            <a href="https://amzn.to/32mexfg" class='book'>
+			     <img src="assets/images/books/2019/wild.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
+            <a href="https://amzn.to/2VirsNB" class='book'>
+			     <img src="assets/images/books/2019/rich.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
+            <a href="https://amzn.to/38U3Bbc" class='book'>
+			     <img src="assets/images/books/2019/talk.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
 		</div>
         
 		<h3>2018</h3> 
 		<div class="row pb-3">
-			<img src="assets/images/books/2018/evict.jpg" class="figure-img img-fluid rounded img-book">
-			<img src="assets/images/books/2018/happy.jpg" class="figure-img img-fluid rounded img-book">
-			<img src="assets/images/books/2018/powerful.jpg" class="figure-img img-fluid rounded img-book">
-			<img src="assets/images/books/2018/ready.jpg" class="figure-img img-fluid rounded img-book">
-			<img src="assets/images/books/2018/reason.jpg" class="figure-img img-fluid rounded img-book">
+            <a href="https://amzn.to/2SQqo26" class='book'>
+			     <img src="assets/images/books/2018/evict.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
+            <a href="https://amzn.to/2SV3cQm" class='book'>
+			     <img src="assets/images/books/2018/happy.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
+            <a href="https://amzn.to/3c2CvAE" class='book'>
+                <img src="assets/images/books/2018/powerful.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
+            <a href="https://amzn.to/2SV3GGa" class='book'>
+			     <img src="assets/images/books/2018/ready.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
+            <a href="https://amzn.to/2SR5QX2" class='book'>
+			     <img src="assets/images/books/2018/reason.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
 		</div>
         
 		<h3>2017</h3> 
 		<div class="row pb-3">
-			<img src="assets/images/books/2017/air.jpg" class="figure-img img-fluid rounded img-book">
-			<img src="assets/images/books/2017/hit_refresh.jpg" class="figure-img img-fluid rounded img-book">
-			<img src="assets/images/books/2017/kingpin.jpg" class="figure-img img-fluid rounded img-book">
-			<img src="assets/images/books/2017/nike.jpg" class="figure-img img-fluid rounded img-book">
-			<img src="assets/images/books/2017/twitter.jpg" class="figure-img img-fluid rounded img-book">
+            <a href="https://amzn.to/2HMeBvi" class='book'>
+			     <img src="assets/images/books/2017/air.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
+            <a href="https://amzn.to/2wGPs2U" class='book'>
+			     <img src="assets/images/books/2017/hit_refresh.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
+            <a href="https://amzn.to/32sedvC" class='book'>
+			     <img src="assets/images/books/2017/kingpin.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
+            <a href="https://amzn.to/37SwRhd" class='book'>
+			     <img src="assets/images/books/2017/nike.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
+            <a href="https://amzn.to/37WMYtX" class='book'>
+			     <img src="assets/images/books/2017/twitter.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
 		</div>
         
 		<h3>2016</h3> 
 		<div class="row pb-3">
-			<img src="assets/images/books/2016/7habit.jpg" class="figure-img img-fluid rounded img-book">
-			<img src="assets/images/books/2016/amazon.jpg" class="figure-img img-fluid rounded img-book">
-			<img src="assets/images/books/2016/walmart.jpg" class="figure-img img-fluid rounded img-book">
+            <a href="https://amzn.to/2TcNPSh" class='book'>
+			     <img src="assets/images/books/2016/7habit.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
+            <a href="https://amzn.to/2T8z7LT" class='book'>
+			     <img src="assets/images/books/2016/amazon.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
+            <a href="https://amzn.to/39Z4NtX" class='book'>
+			     <img src="assets/images/books/2016/walmart.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
 		</div>
         
 		<h3>2015</h3> 
 		<div class="row pb-3">
-			<img src="assets/images/books/2015/david.jpg" class="figure-img img-fluid rounded img-book">
-			<img src="assets/images/books/2015/elon.jpg" class="figure-img img-fluid rounded img-book">
+            <a href="https://amzn.to/2Vfn6qF" class='book'>
+			     <img src="assets/images/books/2015/david.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
+            <a href="https://amzn.to/2HUOWAt" class='book'>
+			     <img src="assets/images/books/2015/elon.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
 		</div>
         
 		<h3>2014</h3> 
 		<div class="row pb-3">
-			<img src="assets/images/books/2014/escape.jpg" class="figure-img img-fluid rounded img-book">
-			<img src="assets/images/books/2014/giver.jpg" class="figure-img img-fluid rounded img-book">
-			<img src="assets/images/books/2014/habit.jpg" class="figure-img img-fluid rounded img-book">
-			<img src="assets/images/books/2014/monkey.jpg" class="figure-img img-fluid rounded img-book">
-			<img src="assets/images/books/2014/pred.jpg" class="figure-img img-fluid rounded img-book">
+            <a href="https://amzn.to/2Tdsfga" class='book'>
+			     <img src="assets/images/books/2014/escape.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
+            <a href="https://amzn.to/2vWxeKk" class='book'>
+			     <img src="assets/images/books/2014/giver.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
+            <a href="https://amzn.to/3bYlHL4" class='book'>
+			     <img src="assets/images/books/2014/habit.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
+            <a href="https://amzn.to/37TgReS" class='book'>
+			     <img src="assets/images/books/2014/monkey.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
+            <a href="https://amzn.to/2Pdpqe3" class='book'>
+			     <img src="assets/images/books/2014/pred.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
 		</div>
 
 		<h3>2013</h3> 
 		<div class="row pb-3">
-			<img src="assets/images/books/2013/outlier.jpg" class="figure-img img-fluid rounded img-book">
-			<img src="assets/images/books/2013/tiger.jpg" class="figure-img img-fluid rounded img-book">
+            <a href="https://amzn.to/2usneIs" class='book'>
+			     <img src="assets/images/books/2013/outlier.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
+            <a href="https://amzn.to/2VmWYtQ" class='book'>
+			     <img src="assets/images/books/2013/tiger.jpg" class="figure-img img-fluid rounded img-book">
+            </a>
 		</div>
 
 		<h3>2011</h3> 
 		<div class="row pb-3">
-			<img src="assets/images/books/2011/joke.png" class="figure-img img-fluid rounded img-book">
+            <a href="https://amzn.to/32jPObv" class='book'>
+			     <img src="assets/images/books/2011/joke.png" class="figure-img img-fluid rounded img-book">
+            </a>
 			<img src="assets/images/books/2011/apa.png" class="figure-img img-fluid rounded img-book">
 		</div>
 	</div>
