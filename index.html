@@ -12,7 +12,7 @@
 	
 	<style>
 		.img-project{
-			border:black 2px solid;
+			border:black 3px solid;
 			/*height:10vh;*/
 			/*width:10vw;*/
 			padding:1px;
@@ -47,6 +47,16 @@
 	    .project-description{
 			font-size: 16px;
 	    }
+
+        /* image hovering effect*/
+        .img-project:hover {
+/*            background-color: dodgerblue;*/
+            border:black 3px dashed;
+            opacity: 0.5;
+            /*margin:2%;*/
+        }
+        
+
 	</style>
 </head>
 
@@ -137,14 +147,14 @@
 			<tr>
                 <td>
                     <div class='row pb-3'>
-                        <div class='col-sm-4'>
+                        <div class='col-sm-4' >
                             <a href="https://salary.ninja">
                             <img src="assets/images/projects/salary2.png" class="figure-img img-fluid rounded img-project"></a>
                         </div>
                         <div class='col-sm-8'>
                             <h3>Salary Ninja</h3>
                             <p class="project-description" >
-                            https://Salary.Ninja a first web application that I built with Django. I built it to learn and experience the process of deploying a website from scratch. It is currently deployed on DigitalOcean. 
+                                <a href="https://salary.ninja">Salary Ninja</a> is a first web application that I built with Django. I built it to learn and experience the process of deploying a website from scratch. It is currently deployed on DigitalOcean. 
                             </p>
                         </div>
                     </div>
@@ -166,6 +176,23 @@
                         </div>
                     </div>
                 </td>
+			</tr>
+			<!--########################################################################-->
+			<tr>
+                <td>
+                    <div class='row pb-3'>
+                        <div class='col-sm-4'>
+                            <a href="books.html">
+                            <img src="assets/images/books_long.png" class="figure-img img-fluid rounded img-project"></a>
+                        </div>
+                        <div class='col-sm-8'>
+                            <h3>Books</h3>
+                            <p class="project-description" >
+                            A collection of books I enjoyed reading and recommend.  
+                            </p>
+                        </div>
+                    </div>
+                </td> 
 			</tr>
 			<!--########################################################################-->
 			<tr>
@@ -200,23 +227,6 @@
                         </div>
                     </div>
                 </td>
-			</tr>
-			<!--########################################################################-->
-			<tr>
-                <td>
-                    <div class='row pb-3'>
-                        <div class='col-sm-4'>
-                            <a href="books.html">
-                            <img src="assets/images/books_long.png" class="figure-img img-fluid rounded img-project"></a>
-                        </div>
-                        <div class='col-sm-8'>
-                            <h3>Books</h3>
-                            <p class="project-description" >
-                            A collection of books I enjoyed reading and recommend.  
-                            </p>
-                        </div>
-                    </div>
-                </td> 
 			</tr>
 			<!--########################################################################-->
 			<tr>
