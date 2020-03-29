@@ -1,0 +1,38 @@
+{
+	"2020":[
+		{
+			"book":"think and grow rich"
+			,"amazon":"https://amzn.to/2VeM2yt"
+			,"image":"assets/images/books/2020/thinkgrowrich.jpg"
+		}
+		,{
+			"book":"A Random Walk Down Wall Street"
+			,"amazon":"https://amzn.to/2JeKf5h"
+			,"image":"assets/images/books/considering/walk.jpg"
+		}
+		,{
+			"book":"Rework"
+			,"amazon":"https://amzn.to/39X0qzx"
+			,"image":"assets/images/books/2020/rework.jpg"
+		}
+		,{
+			"book":"Stop Worrying and Start Living"
+			,"amazon":"https://amzn.to/39X0qzx"
+			,"image":"assets/images/books/2020/stopworry.jpg"
+		}
+	]
+
+	,"2019":[
+		{
+			"book":"think and grow rich"
+			,"amazon":"https://amzn.to/2VeM2yt"
+			,"image":"assets/images/books/2020/thinkgrowrich.jpg"
+		}
+		,{
+			"book":"A Random Walk Down Wall Street"
+			,"amazon":"https://amzn.to/2JeKf5h"
+			,"image":"assets/images/books/considering/walk.jpg"
+		}
+	]
+
+}
