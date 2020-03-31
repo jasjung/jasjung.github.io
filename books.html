@@ -122,6 +122,14 @@
         });
     </script>
 
+<!-- press show all button when page is loaded -->
+<script>
+    function pressBtn() {
+        $("#first-btn").click();}
+    // sometimes onload doesnt work. so im pressing the button one more time here. 
+    pressBtn();
+</script>
+
 </head>
 
 <body onload="pressBtn()">
@@ -312,13 +320,7 @@
     
 </script>
 
-<!-- press show all button when page is loaded -->
-<script>
-    function pressBtn() {
-        $("#first-btn").click();}
-    // sometimes onload doesnt work. so im pressing the button one more time here. 
-    pressBtn();
-</script>
+
 
     <!-- BOOTSTRAP for making collapse navbar work-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
