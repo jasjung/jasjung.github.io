@@ -60,11 +60,6 @@
         .show {
             display: block;
         }
-
-        .hide {
-            display: none;
-        }
-
         /* Style the buttons */
         .btn {
             border: none;
@@ -96,7 +91,7 @@
 
             for(var i=0; i<data.length; i++){            
                 text+= `
-                <div class="card border-white px-1 mx-auto mb-3 justify-content-center filterDiv $tag show">
+                <div class="card border-white px-1 mx-auto mb-3 justify-content-center filterDiv $tag">
                     <a href="$amz" class="book ">
                         <img src="$img" class="figure-img img-fluid rounded img-book">
                     </a>
