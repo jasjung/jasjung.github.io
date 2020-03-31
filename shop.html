@@ -1,0 +1,193 @@
+<html lang="en">
+
+<head>
+    <title>Jason's Website</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Social Media Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- for books database -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+
+    <!-- css -->
+    <style>
+        a.book{ 
+            /*disable blue color*/
+            color: inherit; 
+            /* have the same margin as .img-book or margin is off*/
+            margin:1%;
+        } 
+        .img-book{
+            border:black 2px solid;
+            height:25vh;
+            padding:1px;
+            float:left;
+            margin:1%;
+        }
+        .container {
+            max-width: 100%;
+        }
+        .fa-top {
+            font-size: 150%;
+            color:grey;
+        }
+        .fa-bottom {
+            /*font-size: 150%;*/
+            color:grey;
+        }
+        .footer {
+            max-width: 100%;
+        }
+        /* image hovering effect*/
+        .img-book:hover {
+            border:black 2px dashed;
+            opacity: 0.5;
+        }
+        
+
+</style>
+
+
+</head>
+
+<body >
+    <!--------------------------------------------------------------------------------------->
+    <!-- NAVBAR -->
+    <!--------------------------------------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Jason's Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <!--    <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="books.html">Books</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!--------------------------------------------------------------------------------------->
+    <!-- PROFILE -->
+    <!--------------------------------------------------------------------------------------->
+    <div class='container bg-light pb-2 mb-5 pt-5'>
+        <div class='container' style="width: 80%;" > 
+            <table class="table justify-content-center mx-auto px-auto">
+                <tr>    
+                    <div class='row mx-auto px-auto'>
+                        <div class='col-sm-2 my-auto'>
+                            <img src="assets/images/profile.png" class="img-thumbnail" width=100 style="border-radius: 50%">    
+                        </div>
+                        <div class='col-sm-6 my-auto'>
+                            <h3>Shop</h3>
+                            <p></p>
+                        </div>
+                        <div class='col-sm-2 my-auto'>
+                            <!-- place holder -->
+                        </div>
+                        <div class='col-sm-2 my-auto'>
+                            <a href='https://twitter.com/jasjung_'>
+                                <span class="fa fa-twitter-square fa-top"  ></span> 
+                            </a>
+                            <a href='https://linkedin.com/in/jasjung'>
+                                <span class="fa fa-linkedin-square fa-top"></span> 
+                            </a>
+                            <a href='https://www.youtube.com/channel/UCqNcWgqTLGmaQcsfT95gIow'>
+                                <span class="fa fa-youtube-square fa-top"></span> 
+                            </a>
+                            <a href='https://github.com/jasjung'>
+                                <span class="fa fa-github-square fa-top"></span> 
+                            </a>
+                            <a href='https://medium.com/@jasjung'>
+                                <span class="fa fa-medium fa-top"></span> 
+                            </a>
+                        </div>
+                    </div>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+     
+
+
+
+    <!--------------------------------------------------------------------------------------->
+    <!-- BOOKS -->
+    <!--------------------------------------------------------------------------------------->
+
+    <div class='container pb-5 mb-5' style="width: 80%;"> 
+
+        <a href="https://amzn.to/3dGsw4P" class='book'>
+            <img src="assets/images/shop/animal.jpg" class="figure-img img-fluid rounded img-book">
+        </a>
+
+    </div>
+<div class='container pb-5 mb-5 pt-5 mt-5' style="width: 80%;"> 
+    </div>
+
+
+    <!----------------------------------------------------------------------------------------->
+    <!-- FOOTER -->
+    <!----------------------------------------------------------------------------------------->
+    <footer class="pt-4 pb-4 mb-0 my-md-0 pt-md-5 border-top bg-dark" style="max-width: 100%;">
+        <div class='container' style="max-width: 80%;">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <img class="mb-2" src="assets/images/profile.png" alt="" width="24" height="24">
+                    <small class="d-block mb-3 text-muted">&copy; 2020</small>
+                </div>
+                <div class="col-6 col-md">
+                    <h5 class="text-white">Social</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="https://twitter.com/jasjung_">
+                            <span class="fa fa-twitter fajj"></span> Twitter</a></li>
+                        <li><a class="text-muted" href="https://linkedin.com/in/jasjung">
+                            <span class="fa fa-linkedin"></span> LinkedIn</a></li>
+                        <li><a class="text-muted" href="https://www.youtube.com/channel/UCqNcWgqTLGmaQcsfT95gIow">
+                            <span class="fa fa-youtube"></span> YouTube</a></li>
+                        <li><a class="text-muted" href="https://github.com/jasjung">
+                            <span class="fa fa-github"></span> Github</a></li>
+                        <li><a class="text-muted" href="https://medium.com/@jasjung">
+                            <span class="fa fa-medium"></span> Medium</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5 class="text-white">Resources</h5>
+                    <ul class="list-unstyled text-small">
+                      <li><a class="text-muted" href="https://github.com/jasjung/jasjung.github.io">Source code</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5 class="text-white">About</h5>
+                    <ul class="list-unstyled text-small">
+                      <li><a class="text-muted" href="about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- BOOTSTRAP for making collapse navbar work-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
