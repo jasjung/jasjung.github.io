@@ -53,7 +53,7 @@
         /* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
         .filterDiv {
           margin: 1%;
-          display: none; /* Hidden by default */
+          display: show; /* Hidden by default */
         }
 
         /* The "show" class is added to the filtered elements */
@@ -79,8 +79,6 @@
           color: white;
         }
 </style>
-
-
 
 
     <!-- script for books database -->
@@ -122,17 +120,11 @@
         });
     </script>
 
-<!-- press show all button when page is loaded -->
-<script>
-    function pressBtn() {
-        $("#first-btn").click();}
-    // sometimes onload doesnt work. so im pressing the button one more time here. 
-    pressBtn();
-</script>
+
 
 </head>
 
-<body onload="pressBtn()">
+<body onload="filterSelection('all')">
     <!--------------------------------------------------------------------------------------->
     <!-- NAVBAR -->
     <!--------------------------------------------------------------------------------------->
@@ -196,12 +188,11 @@
     </div>
 
 
-
     <!--------------------------------------------------------------------------------------->
     <!-- FILTER BUTTON -->
     <div class="container pb-5" id="myBtnContainer">
         <div class="row justify-content-center">
-            <button class="btn active" id='first-btn' onclick="filterSelection('all')"> Show all</button>
+            <button class="btn active" id='first-btn' onload="filterSelection('all')" onclick="filterSelection('all')"> Show all</button>
             <button class="btn" onclick="filterSelection('figure')"> Figure </button>
             <button class="btn" onclick="filterSelection('self_dev')"> Self Dev </button>
             <button class="btn" onclick="filterSelection('finance')"> Finance</button>
@@ -261,11 +252,13 @@
 
 
 
+
 <script type="text/javascript">
     // mostly from w3school tutorial. 
-    filterSelection("all")
+
+    // filterSelection("all")
     function filterSelection(c) {
-        // console.log('** filterSelection')
+        console.log('** filterSelection')
         var x, i;
         x = document.getElementsByClassName("filterDiv");
         // console.log("x:",x)
@@ -317,10 +310,22 @@
         });
     }
 
-    
+    filterSelection("all")
+
 </script>
 
+<!-- press show all button when page is loaded -->
+<script>
+    function pressBtn() {
+        console.log('pressbtn')
+        $("#first-btn").click();}
+    // sometimes onload doesnt work. so im pressing the button one more time here. 
+    pressBtn();
+    filterSelection('all');
+    document.getElementById('first-btn').click();
 
+
+</script>
 
     <!-- BOOTSTRAP for making collapse navbar work-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
