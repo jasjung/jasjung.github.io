@@ -94,6 +94,7 @@
             var text = ''
             text += '<div class="row pb-3">'
 
+
             for(var i=0; i<data.length; i++){            
                 text+= `
                 <div class="card border-white px-1 mx-auto mb-3 justify-content-center filterDiv $tag show">
@@ -122,6 +123,10 @@
             };
             text += '</div>'
             $(".mypanel").html(text);
+
+            var book = "Book Count: "
+            book += data.length
+            $(".bookCount").html(book);
         });
     </script>
 
@@ -154,7 +159,7 @@
     <!--------------------------------------------------------------------------------------->
     <!-- PROFILE -->
     <!--------------------------------------------------------------------------------------->
-    <div class='container bg-light pb-2 mb-5 pt-5'>
+    <div class='container bg-light pb-2 mb-3 pt-5'>
         <div class='container' style="width: 80%;" > 
             <table class="table justify-content-center mx-auto px-auto">
                 <tr>    
@@ -192,6 +197,15 @@
         </div>
     </div>
 
+
+
+    <div class='container mb-3 pt-0' style="width: 80%;"> 
+        <div class="row justify-content-center ">
+            <code>
+                <div class="bookCount"></div>
+            </code>
+        </div> 
+    </div> 
 
     <!--------------------------------------------------------------------------------------->
     <!-- FILTER BUTTON -->
